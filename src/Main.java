@@ -8,8 +8,9 @@ public class Main {
         Date today = new Date();
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("EEEE");
         String formated = simpleDateFormat.format(today);
-        System.out.println("Beb*sztál tegnap este?");
+        System.out.println("Berúgtál tegnap este?");
         System.out.println("Ma van: " + formated);
+        // A main nap (date) értéke mondja meg hogy másnaposság van vagy sem...
 
         hangover(formated);
 
